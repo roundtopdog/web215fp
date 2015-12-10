@@ -141,12 +141,10 @@ function autoClear(){
 // add validation to form
 function addValidationEngineToForm(formID){
 	$(formID).validationEngine();
-
 }
-
+// unable to get it working / out of time
 function addInputClassToName(fnameID){
-	$(fnameID).addClass('validate[required]').addClass('text-input');
-alert('a');	
+	$(fnameID).addClass('validate[required]').addClass('text-input');	
 }// end addInputClass
 
 
